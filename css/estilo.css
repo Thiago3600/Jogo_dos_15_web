@@ -1,0 +1,34 @@
+.boxFora {
+    width: fit-content;
+    left: 1200px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 6);
+}
+
+.box {
+    background-color: burlywood;
+    padding: 5px;
+    border: solid hsl(240, 4%, 42%) 20px;
+    display: grid;
+    width: fit-content;
+    border-radius: inherit;
+    box-shadow: inset 0px 0px 5px 5px rgba(0, 0, 0, 6);
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: repeat(4, 60px);
+}
+
+.casaVazia {
+    width: 50px;
+    height: 50px;
+}
+
+.casa {
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: 45px;
+    width: 50px;
+    height: 50px;
+    box-shadow: black 0px 0px 3px;
+    border: solid black;
+}
